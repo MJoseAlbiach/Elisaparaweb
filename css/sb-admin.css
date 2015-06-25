@@ -1,0 +1,456 @@
+/* 
+Author: Start Bootstrap - http://startbootstrap.com
+'SB Admin' HTML Template by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* ATTN: This is mobile first CSS - to update 786px and up screen width use the media query near the bottom of the document! */
+
+/* Global Styles */
+
+/*............REPETIDO EN MODERN-BUSINESS .........*/
+
+/*body {
+  margin-top: 50px;
+}*/
+
+#wrapper {
+  padding-left: 0;
+}
+
+/* ....... OCULTAR BARRA ANTIGUA ..........*/
+#wrapper {
+    visibility: visible
+}
+
+
+#page-wrapper {
+  width: 80%;
+  padding: 5px 15px;
+    float:right;
+}
+
+/* Nav Messages */
+
+.messages-dropdown .dropdown-menu .message-preview .avatar,
+.messages-dropdown .dropdown-menu .message-preview .name,
+.messages-dropdown .dropdown-menu .message-preview .message,
+.messages-dropdown .dropdown-menu .message-preview .time {
+  display: block;
+    
+}
+
+.messages-dropdown .dropdown-menu .message-preview .avatar {
+  float:left;
+   /* vertical-align: middle;*/
+   /* align-items:center; */
+  margin-right: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.messages-dropdown .dropdown-menu .message-preview .name {
+  font-weight: bold;
+
+}
+
+.messages-dropdown .dropdown-menu .message-preview .message {
+  font-size: 12px;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .time {
+  font-size: 12px;
+}
+
+
+/* Nav Announcements */
+
+.announcement-heading {
+  font-size: 50px;
+  margin: 0;
+}
+
+.announcement-text {
+  margin: 0;
+}
+
+/* Table Headers */
+
+table.tablesorter thead {
+  cursor: pointer;
+}
+
+table.tablesorter thead tr th:hover {
+  background-color: #f5f5f5;
+}
+
+/* Flot Chart Containers */
+
+.flot-chart {
+  display: block;
+  height: 400px;
+}
+
+.flot-chart-content {
+  width: 100%;
+  height: 100%;
+}
+
+/* Edit Below to Customize Widths > 768px */
+@media (min-width:768px) {
+
+  /* Wrappers */
+
+  #wrapper {
+	padding-left: 0px;
+  }
+
+  #page-wrapper {
+	padding: 15px 25px;
+  }
+
+  /* MENU VERTICAL IZQUIERDO Side Nav */
+
+  .side-nav {
+	/*margin-left: -225px;*/
+	left: 0px;
+	width: 225px;
+	position:relative;
+	top: 0px;
+	height: 100%;
+	border-radius: 0;
+	border: none;
+	background-color:#D29B40;
+	overflow-y:auto;
+      float: left;
+  }
+
+  /* Bootstrap Default Overrides - Customized Dropdowns for the Side Nav */
+
+ /*SUBMENU VERTICAL IZQUIERDA*/
+    .side-nav>li.dropdown>ul.dropdown-menu {
+	position: relative;
+	min-width: 225px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a {
+	color: #999999;
+	padding: 15px 15px 15px 25px;
+  }
+
+/*SUBMENU VERTICAL IZQUIERDO - HOVER FOCUS ACTIVE*/
+    .side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a.active,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
+	color: #fff;
+	background-color: #080808;
+  }
+
+  .side-nav>li>a {
+	width: 225px;
+  }
+
+ 
+/*MENU SUPERIOR HORIZONTAL - HOVER Y FOCUS*/    
+.navbar-inverse .navbar-nav>li>a:hover,
+  .navbar-inverse .navbar-nav>li>a:focus {
+	background-color: #080808;
+      /*background-color: #aca847;*/
+  }
+
+  /* Nav Messages */
+
+  .messages-dropdown .dropdown-menu {
+	min-width: 250px;
+    
+  }
+
+  .messages-dropdown .dropdown-menu li a {
+	white-space: normal;
+  }
+
+}
+
+
+
+.container2 {
+background-color: #313F01;
+  
+}
+
+
+
+
+
+
+
+.name_menu {
+    float: right;
+    font-size: 18px; 
+    margin-top: 25px;
+    color: #313F01;
+    
+}
+
+
+
+
+
+.desplegable-barra-izq {
+    
+ height:100%;
+   /* margin: 10px;*/
+    background-color:ghostwhite;
+   
+}
+
+.avatar-enlace {
+   display: block;
+    float: left;
+    
+}
+
+.enlace-despl-barra {
+  /*  float: left;*/
+    width: 100%;
+  
+}
+
+/*.name_submenu {
+    float: left;
+    margin-left: 10px;
+}
+*/
+/*.dropdown-sub-sub-menu {
+    position: relative;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+
+}
+.open > .dropdown-sub-sub-menu {
+  display: block;
+}
+*/
+.distribuidor-elementos {
+    padding: 10px 10px 10px 20px;
+}
+
+.actividad {
+    width: 100%;
+}
+
+.desplegable-barra-izq-avis {
+    height: 100%;
+   /* margin: 10px;*/
+    background-color:ghostwhite;
+}
+
+.divisora {
+   
+  /*margin: 9px 0;*/
+    padding-bottom: 10px;
+  /*overflow: hidden;*/
+  background-color: #e5e5e5;
+    width: 100%;
+}
+
+/*.....MENU-SUBMENU.......*/
+.dropdown-menu-submenu {
+    position:relative;
+  top: 100%;
+  left: 100px;
+  z-index: 1000;
+ display: none;
+  float: none;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+
+/*NO FUNCIONA*/
+/*.dropdown-menu-submenu .pull-right {
+  right: 0;
+  left: auto;
+      
+}*/
+
+/*FUNCIONA*/
+.dropdown-menu-submenu .divider {
+  /*height: 0,2px;*/
+  /*margin: 9px 0;*/
+    padding-bottom: 10px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+    width: 100%;
+}
+
+/*FUNCIONA*/
+.dropdown-menu-submenu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: nowrap;
+}
+
+/*FUNCIONA*/
+.dropdown-menu-submenu > li > a:hover,
+.dropdown-menu-submenu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #aca847;
+
+}
+/*NO FUNCIONA - */
+
+/*.dropdown-menu-submenu > .active > a,
+.dropdown-menu-submenu > .active > a:hover,
+.dropdown-menu-submenu > .active > a:focus {
+
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #428bca;
+ 
+}*/
+
+/*NO FUNCIONA*/
+/*.dropdown-menu-submenu > .disabled > a,
+.dropdown-menu-submenu > .disabled > a:hover,
+.dropdown-menu-submenu > .disabled > a:focus {
+  color: #aca847;
+}*/
+/*NO FUNCIONA*/
+/*.dropdown-menu-submenu > .disabled > a:hover,
+.dropdown-menu-submenu > .disabled > a:focus {
+  text-decoration:underline;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}*/
+
+/*............ SUBMENU ABIERTO??? .....*/
+.open > .dropdown-menu-submenu {
+  display: block;
+}
+
+/*.name_menu_sup {
+    float: right;
+    font-size: 18px; 
+    margin-top: 25px;
+    color: #F2E097;
+}*/
+
+/*.dropdown-menu-submenu.pull-right {
+  right: 0;
+  left: auto;
+      
+}*/
+
+/*NO FUNCIONA*/
+/*.nav-tabs .dropdown-menu-submenu {
+  margin-top: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+*/
+/* .side-nav > li .dropdown > ul  .dropdown-menu >li .dropdown > a > ul .dropdown-menu-submenu {
+	position: relative;
+	min-width: 225px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color: burlywood;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+*/
+/*NO FUNCIONA*/
+/*  .side-nav > li .dropdown > ul  .dropdown-menu-submenu {
+	position: relative;
+	min-width: 225px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color:#aca847;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+*/
+/*NO FUNCIONA*/
+ /* .messages-dropdown .dropdown-menu-submenu {
+	min-width: 250px;
+    
+  }
+*/
+
+/*FUNCIONA MEJOR SIN ESTE CÓDIGO*/
+/*
+.navbar-nav > li > .dropdown-menu-submenu {
+  margin-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+  .navbar-nav .open .dropdown-menu-submenu {
+    position:relative;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: white;
+    border: 0;
+    box-shadow: none;
+      display: block;
+  }
+.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu-submenu {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.dropup .dropdown-menu-submenu,
+.navbar-fixed-bottom .dropdown .dropdown-menu-submenu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 1px;
+}
+*/
+
+/*FIN DEL CÓDIGO QUITADO POR MEJOR FUNCIONAMIENTO*/

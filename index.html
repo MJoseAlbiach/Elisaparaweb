@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Entrada de Elisa</title>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- Page Specific CSS -->
+  <!--  <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">-->
+  </head>
+  <body>
+       
+    <nav class="navbar navbar-inverse" role="navigation">
+   <img src="images/Monarca80.gif" alt="Logo Multite">     
+      <div class="container2">    
+        <div class="navbar-header">
+             <a class="navbar-brand" href="index.html">Elisa Web </a>
+        </div>
+
+<!-- CONTENEDOR MENUS SUPERIORES --> 
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+        
+ <!-- MENUS SUPERIORES -->        
+          <ul class="nav navbar-nav navbar-left">
+ 
+<!-- MENU AGRARIO/PECUARIO -->           
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Agrario/Pecuario <b class="caret"></b></a>
+ 
+             <ul class="dropdown-menu">
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Colectivos <b class="caret"></b></a>
+                
+<!--SUBMENU AGRARIO-PECUARIO / COLECTIVOS-->
+                  <ul class="dropdown-menu-submenu">
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Navegador/Selección de colectivo</a></li>
+                    <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alta de un nuevo colectivo</a></li>
+                   <li><a href="blog-post.html">Primer vistazo</a></li>
+                     <li class="divider"></li> 
+                       <li><a href="blog-post.html">Editar colectivos</a></li>
+                       <li class="divider"></li>
+                        <li><a href="blog-post.html">Test errores (con submenú)</a></li>
+                         <li><a href="blog-post.html">Renovar grupo de pólizas (con submenú)</a></li>
+                          <li><a href="blog-post.html">Colectivos / Estados</a></li>
+                         <li class="divider"></li> 
+                           <li><a href="blog-post.html">Primer vistazo en sesión nueva</a></li>
+                       </ul> 
+                       </li>                        
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Pólizas <b class="caret"></b></a>
+                
+<!--SUBMENU PÓLIZAS-->
+                  <ul class="dropdown-menu">
+                    <li><a href="blog-home-1.html">Altas</a></li>
+                    <li><a href="blog-post.html">Consulta última póliza trabajada</a></li>
+                   <li><a href="blog-post.html">Visualizar</a></li> 
+                       <li><a href="blog-post.html">Buscar en todas las pólizas</a></li>
+                       <li class="divider"></li>
+                        <li><a href="blog-post.html">Intercambio de pólizas</a></li>
+                         <li><a href="blog-post.html">Procesar respuestas</a></li>
+                          <li><a href="blog-post.html">Intercambio Agroseguro</a></li>
+                       </ul>                                                                 </li>
+<!-- SUBMENU REMESAS--> 
+                               
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Remesas <b class="caret"></b></a>
+<!--SUBMENÚ REMESAS-->
+                  <ul class="dropdown-menu">
+                    <li><a href="blog-home-1.html">Dar de alta una nueva remesa</a></li>
+                    <li><a href="blog-post.html">Ver remesas</a></li>
+                       </ul>
+<!--FIN SUBMENÚ REMESAS-->                
+                   </li>
+<!--=======MENU LISTADOS===========0-->               
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Listados <b class="caret"></b></a>
+<!--SUBMENU LISTADOS-->
+                  <ul class="dropdown-menu">
+                    <li><a href="blog-home-1.html">Informes (con submenú)</a></li>
+                    <li><a href="blog-post.html">Definir informes</a></li>
+                      <li class="divider"></li>
+                       <li><a href="blog-post.html">Pólizas</a></li>
+                        <li><a href="blog-post.html">Remesas</a></li>
+                         <li><a href="blog-post.html">Modificaciones</a></li>
+                         <li class="divider"></li>
+                          <li><a href="blog-post.html">Documento sat</a></li>
+                    <li><a href="blog-post.html">OPFH</a></li>
+                    <li class="divider"></li>
+                    <li><a href="blog-post.html">Resúmenes</a></li>
+                    <li><a href="blog-post.html">Análisis de datos</a></li>
+                       <li><a href="blog-post.html">Totalizar vista</a></li>
+                       <li class="divider"></li>
+                        <li><a href="blog-post.html">Selección número de cópias</a></li>
+                         <li><a href="blog-post.html">Edición de listados (con submenú)</a></li>
+                       <li class="divider"></li>
+    <li><a href="blog-post.html">Galería gráfica</a></li>
+                       <li><a href="blog-post.html">Hoja de cálculo</a></li>
+                        <li><a href="blog-post.html">Hoja Estadística</a></li>
+                         <li><a href="blog-post.html">Comparativa DNIs</a></li>
+                        <li><a href="blog-post.html">Informe de producción</a></li>                    
+                       </ul>                                 
+<!--FIN SUBMENU LISTADOS-->                                 
+                </li>
+
+<!--MENU SINIESTROS--> 
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Siniestros <b class="caret"></b></a>
+<!--SUBMENU SINIESTROS-->
+                  <ul class="dropdown-menu">
+                    <li><a href="blog-home-1.html">Revisar</a></li>
+                    <li><a href="blog-post.html">Finiquitos</a></li>
+                      <li class="divider"></li>
+                       <li><a href="blog-post.html">Análisis CUBE</a></li>            
+                       </ul>                                 
+<!--FIN SUBMENU SINIESTROS-->                                                 </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Operaciones especiales <b class="caret"></b></a>
+<!--SUBMENU OPERACIONES ESPECIALES-->
+                  <ul class="dropdown-menu">
+                    <li><a href="blog-home-1.html">Importar de Base secundaria</a></li>
+                    <li><a href="blog-post.html">Importar otras fuentes (con submenú)</a></li>
+                     <li><a href="blog-post.html">Exportar datos (con submenú)</a></li>
+                      <li class="divider"></li>
+                       <li><a href="blog-post.html">Recuperar información perdida (con submenú)</a></li>
+                        <li><a href="blog-post.html">Actualizaciones (con submenú)</a></li>
+                         <li><a href="blog-post.html">Obsoletas (con submenú)</a></li>
+                          <li><a href="blog-post.html">Scheduler</a></li>
+                          <li class="divider"></li>
+                    <li><a href="blog-post.html">ReAsigna Mediador</a></li>
+                    <li><a href="blog-post.html">ReAsigna Subagente</a></li>
+                    <li><a href="blog-post.html">Presume</a></li>
+                    <li><a href="blog-post.html">Póliza, Remesa...</a></li>
+                    <li><a href="blog-post.html">Importa recibos</a></li>
+                    <li><a href="blog-post.html">Ver recibos</a></li>
+                       <li><a href="blog-post.html">Ver Comisiones</a></li>
+                        <li><a href="blog-post.html">Importar comisiones</a></li>
+                         <li><a href="blog-post.html">Recibos / Reglamento</a></li>
+    <li><a href="blog-post.html">Renovables</a></li>
+                       <li><a href="blog-post.html">Recibos</a></li>                 
+                       </ul>                                 
+<!--FIN SUBMENU OPERACIONES ESPECIALES-->                                  </li>
+                <li class="divider"></li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Rango  referencia agrarios <b class="caret"></b></a>
+<!--SUBMENU RANGO REFERENCIA AGRARIOS-->
+                  <ul class="dropdown-menu">
+                    <li><a href="blog-home-1.html">Editar los rangos de referencias</a></li>
+                    <li><a href="blog-post.html">Cambios de numeración</a></li>
+                       <li><a href="blog-post.html">Cambio de numeración en expedientes</a></li>            
+                       </ul>                                 
+<!--FIN SUBMENU RANGO REFERENCIA AGRARIOS-->                    
+                </li>             
+         </ul>
+        </li>
+<!-- .......................MENU FICHEROS..................... -->  
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ficheros <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="blog-home-1.html">Clientes</a></li>
+                <li><a href="blog-post.html">SubAgentes</a></li>
+                <li><a href="blog-post.html">Entidades/Agentes</a></li>
+                <li><a href="blog-post.html">Tablas comunes pecuario y agrario</a></li>            
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Tablas de normativa <b class="caret"></b></a>
+<!--SUBMENU TABLAS DE NORMATIVA-->
+                  <ul class="dropdown-menu">
+                    <li><a href="blog-home-1.html">Resto de tablas agrarias</a></li>
+                       </ul>                                 
+<!--FIN SUBMENU SINIESTROS-->                      
+               </li>                              
+                <li><a href="blog-post.html">Pólizas, parcelas... </a></li>
+                <li><a href="blog-post.html">E-Mail</a></li>            
+             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Actualizaciones de Normativa <b class="caret"></b></a>
+             
+<!--SUBMENU ACTUALIZACIONES DE NORMATIVA-->
+                  <ul class="dropdown-menu">
+                    <li><a href="blog-home-1.html">Importar Comisiones Gastos</a></li>
+                    <li><a href="blog-post.html">Gestión de subvenciones (con submenú)</a></li>
+                       <li><a href="blog-post.html">Actualización http genérica</a></li>
+                        <li><a href="blog-post.html">Actualizar el ejecutable</a></li>
+                         <li><a href="blog-post.html">Actualiza listados</a></li>
+                         <li class="divider"></li>
+                          <li><a href="blog-post.html">Editar cálculos</a></li>
+                    <li><a href="blog-post.html">Actualiza bonus malus Pecuario</a></li>
+                    <li class="divider"></li>
+                    <li><a href="blog-post.html">Actualización FTP a través de Proxy</a></li>                
+                       </ul>                                 
+<!--FIN SUBMENU ACTUALIZACIONES DE NORMATIVA-->              
+             </li>                    
+             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Operaciones especiales en ficheros  <b class="caret"></b></a>
+<!--SUBMENU OPERACIONES ESPECIALES EN FICHEROS-->
+                  <ul class="dropdown-menu">
+                    <li><a href="blog-home-1.html">Cambio base datos (con submenú)</a></li>
+                    <li><a href="blog-post.html">Edita tablas cliente, sat...</a></li>
+                      <li class="divider"></li>
+                       <li><a href="blog-post.html">Edita tablas Dos (con submenú)</a></li>
+                        <li><a href="blog-post.html">Vaciar tablas agrario (con submenú)</a></li>
+                         <li><a href="blog-post.html">Instalar nucleo DOS</a></li>
+                          <li><a href="blog-post.html">Exporta / Importa XML</a></li>
+                    <li><a href="blog-post.html">Sql mail</a></li>                       </ul>                                 
+<!--FIN SUBMENU OPERACIONES ESPECIALES EN FICHEROS-->                 
+               </li>             
+                <li><a href="blog-post.html">Consultas SQL </a></li>
+                
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Administrador <b class="caret"></b></a>
+               
+<!--SUBMENU OPERACIONES ESPECIALES EN FICHEROS-->
+                  <ul class="dropdown-menu">
+                    <li><a href="blog-home-1.html">Fichero de ususarios</a></li>
+                       </ul>                                 
+<!--FIN SUBMENU OPERACIONES ESPECIALES EN FICHEROS-->               
+               </li>
+               
+                <li><a href="blog-post.html">Remesa Caja</a></li>
+                <li><a href="blog-post.html">Tabla de movimientos</a></li>
+                <li><a href="blog-post.html">Agro</a></li>
+                <li><a href="blog-post.html">Servidor Http</a></li>
+                <li><a href="blog-post.html">GeMa</a></li>
+                <li><a href="blog-post.html">Ftp Agro</a></li>
+              </ul>
+            </li>
+            
+<!-- ................MENU VENTANAS................ -->  
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ventanas<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="full-width.html">Mosaico vertical</a></li>
+                <li><a href="sidebar.html">Mosaico horizontal</a></li>
+                <li><a href="faq.html">En cascada</a></li>
+                <li><a href="404.html">Cerrar todas</a></li>
+                <li><a href="pricing.html">Cerrar avisos</a></li>
+                <li><a href="pricing.html">Objeto del sistema</a></li>
+                <li><a href="pricing.html">Ampliar</a></li>
+<!-- SUB-MENU VENTANAS -->  
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Asistente <b class="caret"></b></a>
+              
+<!--SUBMENÚ VENTANAS/ASISTENTE-->
+              <ul class="dropdown-menu">
+                <li><a href="blog-home-1.html">Mostrar asistente</a></li>
+                <li><a href="blog-post.html">Parametros del asistente (lleva submenú)</a></li>
+                <li><a href="blog-post.html">Mostrar todas las secuencias</a></li>
+                <li><a href="blog-post.html">Parar las animaciones</a></li>
+                <li><a href="blog-post.html">Mover aleatoriamente</a></li>
+                <li><a href="blog-post.html">Muestra ayuda principal</a></li>
+                <li><a href="blog-post.html">Inicializa</a></li>
+                <li><a href="blog-post.html">Nombre:</a></li>
+              </ul>
+            </li>          
+         <li class="divider"></li>
+         <li><a href="blog-home-1.html">Configuración <b class="caret"></b></a>
+<!--SUBMENU VENTANAS / CONFIGURACION-->
+                  <ul class="dropdown-menu">
+                    <li><a href="blog-home-1.html">Interruptores Dips</a></li>
+                    <li><a href="blog-post.html">Opciones temporales (con submenú)</a></li>
+                     <li><a href="blog-post.html">Editar alias</a></li>
+                      <li class="divider"></li>
+                       <li><a href="blog-post.html">Ventana test (con submenú)</a></li>
+                          <li class="divider"></li>
+                    <li><a href="blog-post.html">Apariencia</a></li>
+                    <li><a href="blog-post.html">Desactiva tunning</a></li>
+                    <li><a href="blog-post.html">Modo Nexo</a></li>
+                       </ul>                                 
+<!--FIN SUBMENU VENTANAS / CONFIGURACIÓN-->                  
+               </li>
+                <li><a href="blog-home-1.html">Barra lateral <b class="caret"></b></a>
+<!--SUBMENU VENTANAS / BARRA LATERAL-->
+                  <ul class="dropdown-menu">
+                    <li><a href="blog-home-1.html">Barra contable</a></li>
+                    <li><a href="blog-post.html">Barra Agraria</a></li>
+                     <li><a href="blog-post.html">Desactivar Barra</a></li>
+                       </ul>                                 
+<!--FIN SUBMENU VENTANAS / BARRA LATERAL-->      
+                </li>                  </ul>
+            </li>
+
+<!-- ....................MENU SALIR..................... -->  
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Salir <b class="caret"></b></a>
+   <!-- SUB-MENU SALIR -->           
+              <ul class="dropdown-menu">
+                <li><a href="blog-home-1.html">Salir del Programa</a></li>
+                <li><a href="blog-post.html">Copias de Seguridad</a></li>
+                <li class="divider"></li>                      <li><a href="blog-post.html">Acerca de...</a></li>
+                <li><a href="blog-post.html">Big brother</a></li>
+                <li class="divider"></li>
+                <li><a href="blog-post.html">Descargar tensiones <b class="caret"></b></a>
+                
+<!--SUBMENU SALIR / DESCARGAR TENSIONES-->
+                  <ul class="dropdown-menu">
+                    <li><a href="blog-home-1.html">Triste mente</a></li>
+                    <li><a href="blog-post.html">A martillazos</a></li>
+                     <li><a href="blog-post.html">Alíniate</a></li>
+                       </ul> 
+                                                       
+<!--FIN SUBMENU VENTANAS / BARRA LATERAL-->                  
+                </li>
+                <li class="divider"></li>
+                <li><a href="blog-post.html">Ayudas <b class="caret"></b></a>
+                
+<!--SUBMENU SALIR / AYUDAS-->
+                  <ul class="dropdown-menu">
+                    <li><a href="blog-home-1.html">Ayuda general</a></li>
+                    <li><a href="blog-post.html">Ayuda on-line</a></li>
+                     <li><a href="blog-post.html">Modo WEB</a></li>
+                       </ul>
+                                                        
+<!--FIN SUBMENU VENTANAS / AYUDAS-->                         
+                </li>                
+              </ul><!--FIN SUB-MENU SALIR -->             
+            </li><!--FIN MENU SALIR -->              
+         </ul> 
+<!-- FIN MENUS SUPERIORES -->
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>                
+                  
+  <!-- BARRA LATERAL IZQUIERDA -->       
+    <ul class="nav navbar-nav side-nav">
+    
+<!-- COLECTIVOS -->  
+       <li class="dropdown messages-dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/colectivos60.gif">
+             <span class="name_menu">Colectivos <b class="caret"></b></span></a>
+              <ul class="dropdown-menu">
+                <li class="desplegable-barra-izq">
+                  <a class="enlace-despl-barra" href="#">
+                    <span class="avatar-enlace"><img src="images/vistazo.gif"></span>
+                    <br><span class="name_submenu">Primer vistazo</span><br><br>
+                   <span class="message"></span>  
+                  </a>
+                </li>
+             <li class="divider"></li>
+           </ul> 
+<!-- FIN COLECTIVOS -->
+    
+<!-- PÓLIZAS -->  
+       <li class="dropdown messages-dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/icono_poliza2.gif">
+<span class="name_menu">Pólizas <b class="caret"></b></span></a>
+              <ul class="dropdown-menu">
+                <li class="desplegable-barra-izq">
+                  <a class="enlace-despl-barra" href="#">
+                    <span class="avatar-enlace"><img src="http://placehold.it/50x50"></span>
+                    <br><span class="name_submenu">Alta Póliza</span><br><br>
+                   <span class="message"></span>  
+                  </a>
+                </li>
+                <li class="divider"></li>
+                
+                <li class="desplegable-barra-izq">
+                  <a class="enlace-despl-barra" href="#">
+                    <span class="avatar-enlace"><img src="http://placehold.it/50x50"></span>
+                    <br><span class="name_submenu">Ver última póliza </span><br><br>
+                   <span class="message"></span>  
+                  </a>
+                </li>
+                <li class="divider"></li>
+            </ul>
+       
+<!-- FIN PÓLIZAS -->               
+<!-- REMESA -->  
+       <li class="dropdown messages-dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/icono_remesa2.gif"><span class="name_menu">Remesa <b class="caret"></b></span></a>
+              <ul class="dropdown-menu">
+                <li class="desplegable-barra-izq">
+                  <a class="enlace-despl-barra" href="#">
+                    <span class="avatar-enlace"><img src="http://placehold.it/50x50"></span>
+                    <br><span class="name_submenu">Alta Remesa</span><br><br>
+                   <span class="message"></span>  
+                  </a>
+                </li>
+                <li class="divider"></li>
+                
+                <li class="desplegable-barra-izq">
+                  <a class="enlace-despl-barra" href="#">
+                    <span class="avatar-enlace"><img src="http://placehold.it/50x50"></span>
+                    <br><span class="name_submenu">Consulta Remesa</span><br><br>
+                   <span class="message"></span>  
+                  </a>
+                </li>
+                <li class="divider"></li>
+            </ul>
+<!-- FIN REMESA -->
+               
+<!-- LISTADOS -->  
+       <li class="dropdown messages-dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/listados3.gif"><span class="name_menu">Listados <b class="caret"></b></span></a>
+              <ul class="dropdown-menu">
+                <li class="desplegable-barra-izq">
+                  <a class="enlace-despl-barra" href="#">
+                    <span class="avatar-enlace"><img src="http://placehold.it/50x50"></span>
+                    <br><span class="name_submenu">Póliza, Remesa...</span><br><br>
+                   <span class="message"></span>  
+                  </a>
+                </li>
+                <li class="divider"></li>
+                
+                <li class="desplegable-barra-izq">
+                  <a class="enlace-despl-barra" href="#">
+                    <span class="avatar-enlace"><img src="http://placehold.it/50x50"></span>
+                    <br><span class="name_submenu">Definir informes</span><br><br>
+                   <span class="message"></span>  
+                  </a>
+                </li>
+                <li class="divider"></li>
+            </ul>
+<!-- FIN LISTADOS -->
+               
+<!-- SINIESTROS -->  
+       <li class="dropdown messages-dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/siniestros.gif"><span class="name_menu">Siniestros <b class="caret"></b></span></a>
+              <ul class="dropdown-menu">
+                <li class="desplegable-barra-izq">
+                  <a class="enlace-despl-barra" href="#">
+                    <span class="avatar-enlace"><img src="http://placehold.it/50x50"></span>
+                    <br><span class="name_submenu">Consulta Siniestros</span><br><br>
+                   <span class="message"></span>  
+                  </a>
+                </li>
+                <li class="divider"></li>
+            </ul>
+<!-- FIN SINIESTROS -->
+               
+<!-- BUSCADOR -->  
+       <li class="dropdown messages-dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/buscar2.gif"><span class="name_menu">Búsqueda <b class="caret"></b></span></a>
+              <ul class="dropdown-menu">
+                <li class="desplegable-barra-izq">
+                <br>
+             <form role="form">
+              <div class="form-group">
+                <input class="form-control">
+              <!--</div>-->
+            <div class="distribuidor-elementos">
+              <button type="submit" class="btn btn-default">Buscar</button>
+              
+             <button type="reset" class="btn btn-default">Siguiente</button> 
+                  </div>
+                </div> 
+            </form>             
+<!-- FIN BUSCADOR -->  
+                          
+             </li>
+                <li class="divider"></li>
+            </ul>
+<!-- FIN DIVISORIA -->
+               
+<!-- AVISOS -->  
+       <li class="dropdown messages-dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/avisos2.gif"><span class="name_menu">Avisos <b class="caret"></b></span></a>
+              <ul class="dropdown-menu">
+                <li class="desplegable-barra-izq">
+                                  <br>
+<!--INFORMACIÓN PÓLIZAS-->         
+          <!-- <div class="col-lg-4">-->
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title"><i class="icon-time"></i> Número de pólizas</h3>
+              </div>
+              <div class="panel-avisos">
+                <div class="list-group">
+                  <a href="#" class="list-group-item">
+                  
+<!-- RESULTADOS EXPEDIENTES -->
+                    <span class="badge">?</span>
+                    <!--<i class="icon-calendar"></i>--> Expedientes
+                  </a>
+                  <a href="#" class="list-group-item">
+<!-- RESULTADOS EXPEDIENTES A ENVIAR -->                             <span class="badge">?</span>
+                   <!-- <i class="icon-truck"></i>--> A enviar</a>               
+                </div>                
+              </div>
+            </div>
+        <!--  </div>  -->                  
+<!--FIN INFORMACION PÓLIZAS-->                      
+                </li>
+                <li class="divider"></li>
+            </ul>
+<!-- FIN  PÓLIZAS -->              
+           </ul> 
+  <!-- FIN BARRA LATERAL IZQUIERDA -->          
+ 
+      </div><!-- /#page-wrapper -->
+    </div><!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- Page Specific Plugins -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
+    <script src="js/morris/chart-data-morris.js"></script>
+    <script src="js/tablesorter/jquery.tablesorter.js"></script>
+    <script src="js/tablesorter/tables.js"></script>
+  </body>
+</html>
